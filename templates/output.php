@@ -12,7 +12,6 @@ $temperature = $weather_data['main']['temp'];
 $speed = $weather_data['wind']['speed'];
 $feels_like = $weather_data['main']['feels_like'];
 $humidity = $weather_data['main']['humidity'];
-$rain = $weather_data['rain']['rain'];
 $min = $weather_data['main']['temp_min'];
 $max = $weather_data['main']['temp_max'];
 
@@ -36,6 +35,4 @@ echo "Wind speed: " . $speed . " miles per hour";
 echo "<br>";
 echo "Humidity " . $humidity ;
 echo "<br>";
-echo "Rain " . $rain . " for the last hour";
-
 ?>
